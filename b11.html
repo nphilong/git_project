@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bai11</title>
+</head>
+<style type="text/css">
+    .div{
+        text-align: right;
+    }
+    .con{
+        text-align: left;
+    }
+    table{
+        border :10;
+        cellspacing :10;
+        cllpadding :10;
+        width :40%;
+        height: 100px;
+        font-family: Calibri;
+        font-size:18px ;
+
+    }
+
+</style>
+<body>
+    <center>
+        <table bgcolor="#a9d7d1" >
+            <thead>
+            <tr colspan="2"; rolspan="2">
+                <th> Survey Form</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>
+                    <table  border="0" cellpadding="2" cellspacing="10" bgcolor="white" style="text-align:right;width:100%;height:100px" >
+                        <thead>
+                        <tr>
+                            <th colspan="2">Let us know how we can improve freeCodeCamp </th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td div class="div">*Name </td>
+                            <td div class="con"> <input type="text"></td>
+                        </tr>
+                        <tr>
+                            <td div class="div">*Email</td>
+                            <td div class="con"> <input type="text"> </td>
+                        </tr>
+                        <tr>
+                            <td div class="div">*Age</td>
+                            <td div class="con"> <input type="number"></td>
+                        </tr>
+                        <tr>
+                            <td div class="div"> Which option best describes your current role?</td>
+                            <td div class="con">
+                                <select>
+                                    <option value="1"> Student</option>
+                                    <option value="2"> Teacher</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td div class="div">* How likely is that you would recommend freeCodeCamp to a friend?</td>
+                            <td div class="con"> <input type="radio">Definitely
+                                <br>
+                                <input type="radio"> Maybe
+                                <br>
+                                <input type="radio">Not sure
+                            </td>
+                        </tr>
+                        <tr>
+                            <td div class="div">What do you like most in FCC</td>
+                            <td div class="con">
+                                <select>
+                                    <option value="1">Select an option</option>
+                                    <option value="2"> blabla</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td div class="div" style="  display: flex;justify-content: center">Things that should be improved in the future (Check all that apply)</td>
+                            <td div class="con"> <input type="checkbox">Front-end Projects
+                                <br>
+                                <input type="checkbox">Back-end Projects
+                                <br>
+                                <input type="checkbox">Data Visualization
+                                <br>
+                                <input type="checkbox">Challenges
+                                <br>
+                                <input type="checkbox">Open Source Community
+                                <br>
+                                <input type="checkbox">Gitter help rooms
+                                <br>
+                                <input type="checkbox">Videos
+                                <br>
+                                <input type="checkbox">City Meetups
+                                <br>
+                                <input type="checkbox">Wiki
+                                <br>
+                                <input type="checkbox">Forum
+                                <br>
+                                <input type="checkbox">Additional Courses
+                            </td>
+                        </tr>
+                        <tr>
+                            <td div class="div">Any Comments or Suggestions?</td>
+                            <td div class="con"><textarea rows="2" cols="16"></textarea></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" style="text-align: center">
+                                <input type="submit" name="submit" value="Submit Form" />
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+            </tbody>
+        </table>
+    </center>
+</body>
+</html>

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bai12</title>
+</head>
+<style type="text/css">
+    *{
+        margin:0;
+        padding:0;
+    }
+    body{
+        font-family: sans-serif;
+        color :#008000;
+    }
+    #menu ul {
+        list-style-type: none;
+        background: #008000;
+        text-align: center;
+
+    }
+    #menu ul li{
+        color: #ff9d00;
+        display: inline-table;
+        width: 120px;
+        height: 40px;
+    }
+    #menu ul li a{
+        color: #f1f1f1;
+        text-decoration: none;
+        position: relative;
+        display: block;
+    }
+    #menu ul li a:hover{
+        background: #f1f1f1;
+        color: #008000;
+    }
+    #menu ul li>.submenu{
+        display: none;
+        position: absolute;
+    }
+    #menu ul li:hover .submenu{
+        display: block;
+    }
+</style>
+<body>
+<div id="menu">
+    <ul>
+        <li><a href="#">Home</a> </li>
+        <li><a href="#">About</a></li>
+        <li>
+            <a href="#">Product</a>
+            <ul class="submenu">
+                <li><a href="#">
+                    <br/>
+                    Engnereening</a> </li>
+                <li><a href="#"><br>Telecom</a> </li>
+                <li><a href="#"><br>Enegy</a> </li>
+                <li><a href="#"><br>Finanace</a> </li>
+                <li><a href="#"><br> Conlsutacy</a></li>
+            </ul>
+        </li>
+        <li>
+            <li><a href="#">Services</a> </li>
+            <li><a href="#">Contact</a> </li>
+        </li>
+    </ul>
+</div>
+</body>
+</html>
